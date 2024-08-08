@@ -1,6 +1,7 @@
 import { cn } from '@/lib/utils';
 
-import { Stack, type StackProps } from './stack';
+import type { StackProps } from './stack';
+import { Stack } from './stack';
 
 type HStackProps = StackProps & {
   readonly wrap?: boolean;

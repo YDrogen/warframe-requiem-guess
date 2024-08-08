@@ -8,13 +8,7 @@ export type StackProps = HTMLAttributes<HTMLDivElement> & {
   readonly name?: string;
 };
 
-function Stack({
-  className,
-  gap = 0,
-  direction = 'vertical',
-  name = 'stack',
-  ...props
-}: StackProps) {
+function Stack({ className, gap = 0, direction = 'vertical', name = 'stack', ...props }: StackProps) {
   return (
     <div
       data-name={name}

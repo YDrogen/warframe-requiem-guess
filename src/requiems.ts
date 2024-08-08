@@ -1,13 +1,4 @@
-export enum REQUIEM_NAME {
-  FASS = 'Fass',
-  JAHU = 'Jahu',
-  KHRA = 'Khra',
-  LOHK = 'Lohk',
-  NETRA = 'Netra',
-  RIS = 'Ris',
-  VOME = 'Vome',
-  XATA = 'Xata',
-}
+import { REQUIEM_NAME } from '@/requiem';
 
 export type REQUIEM = {
   name: REQUIEM_NAME;
